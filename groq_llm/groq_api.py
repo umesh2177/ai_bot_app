@@ -2,12 +2,12 @@ import os
 from dotenv import load_dotenv
 from groq import Groq
 load_dotenv()
-
+from logging import getLogger
 
 def groq_api_call(api_key,model,user_input,text_context,system_prompt):
         # api_key = os.getenv("Groq_api_key")
         client = Groq(api_key=api_key)
-        print("============",text_context)
+        getLogger().info("iInput text_context: ",text_context)
         #   
         # Set the system prompt
         chat_history=[]
@@ -24,7 +24,7 @@ def groq_api_call(api_key,model,user_input,text_context,system_prompt):
 
         chat_history.append({"role": "user", "content": text_context})
         chat_history.append({"role": "user", "content": user_input})
-        print(len(chat_history))
+        # print(len(chat_history))
 
         response = client.chat.completions.create(model= model,#"llama-3.3-70b-versatile",#"llama3-70b-8192",
                                     messages=chat_history,
@@ -37,7 +37,7 @@ def groq_api_call(api_key,model,user_input,text_context,system_prompt):
                 "content": response.choices[0].message.content
         })
         # Print the response
-        print("\n\n")
+        # print("\n\n")
         # print("Assistant:\n", response.choices[0].message.content)
         return response.choices[0].message.content 
 

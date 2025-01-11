@@ -2,12 +2,14 @@
 import requests
 from bs4 import BeautifulSoup
 from groq_llm import groq_api
+from logging import getLogger
 
 class web_url_scraper:
     def __init__(self,web_url,api_key):
         self.web_url=web_url
         self.para=""
         self.api_key=api_key
+        getLogger().info(f"Web URL: {self.web_url}")
         
 
     def web_url_scraper_para(self,web_url):
@@ -37,11 +39,11 @@ class web_url_scraper:
             self.para=" ".join(paragraphs)
 
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching URL: {e}")
+            # getLogger().error(f"Error fetching URL: {e}")
             return "Provided URL is not valid or not accessible.",400
 
         except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+            getLogger().error(f"An unexpected error occurred: {e}")
             return None
 
    
@@ -67,12 +69,14 @@ class web_url_scraper:
 
             self.web_url_scraper_para(self.web_url)
             if self.para == "":
+                getLogger().error("Provided URL is not valid or not accessible.")
                 return "Provided URL is not valid or not accessible.",400
             else:
                 res=groq_api.groq_api_call(api_key=self.api_key,model=model,user_input=input,text_context=self.para,system_prompt=system_prompt)
                 return res
         except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+            getLogger().error(f"An unexpected error occurred: {e}")
+            # print(f"An unexpected error occurred: {e}")
             return None
 
 
@@ -102,6 +106,7 @@ class web_url_scraper:
         self.web_url_scraper_para(self.web_url)
         self.web_url_scraper_para(self.web_url)
         if self.para == "":
+            getLogger().error("Provided URL is not valid or not accessible.")
             return "Provided URL is not valid or not accessible.",400
         else:    
             res=groq_api.groq_api_call(api_key=self.api_key,model=model,user_input=input,text_context=self.para,system_prompt=system_prompt)
