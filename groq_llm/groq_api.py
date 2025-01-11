@@ -4,8 +4,8 @@ from groq import Groq
 load_dotenv()
 
 
-def groq_api_call(model,user_input,text_context,system_prompt):
-        api_key = os.getenv("Groq_api_key")
+def groq_api_call(api_key,model,user_input,text_context,system_prompt):
+        # api_key = os.getenv("Groq_api_key")
         client = Groq(api_key=api_key)
         print("============",text_context)
         #   

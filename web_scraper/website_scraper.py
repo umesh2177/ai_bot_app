@@ -4,9 +4,10 @@ from bs4 import BeautifulSoup
 from groq_llm import groq_api
 
 class web_url_scraper:
-    def __init__(self,web_url):
+    def __init__(self,web_url,api_key):
         self.web_url=web_url
         self.para=""
+        self.api_key=api_key
         
 
     def web_url_scraper_para(self,web_url):
@@ -68,7 +69,7 @@ class web_url_scraper:
             if self.para == "":
                 return "Provided URL is not valid or not accessible.",400
             else:
-                res=groq_api.groq_api_call(model=model,user_input=input,text_context=self.para,system_prompt=system_prompt)
+                res=groq_api.groq_api_call(api_key=self.api_key,model=model,user_input=input,text_context=self.para,system_prompt=system_prompt)
                 return res
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
@@ -103,5 +104,5 @@ class web_url_scraper:
         if self.para == "":
             return "Provided URL is not valid or not accessible.",400
         else:    
-            res=groq_api.groq_api_call(model=model,user_input=input,text_context=self.para,system_prompt=system_prompt)
+            res=groq_api.groq_api_call(api_key=self.api_key,model=model,user_input=input,text_context=self.para,system_prompt=system_prompt)
             return res
