@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from web_scraper.website_scraper import web_url_scraper
 
-st.title("Scam News APP")
+st.title("News Expert Agent APP")
 # with st.form("my_form"):
 
 api_key = st.text_input("Enter your groq API Key:", "")
