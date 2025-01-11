@@ -1,3 +1,262 @@
 2025-01-11 13:28:26,309 - __main__ - INFO - This is an informational message.
 2025-01-11 13:28:26,309 - __main__ - WARNING - This is a warning message.
 2025-01-11 13:28:26,309 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:31,381 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:31,381 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:31,382 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:31,382 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:31,383 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:31,383 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:35,440 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:35,440 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:35,440 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:35,440 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:35,440 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:35,440 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:35,440 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:35,440 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:35,440 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
+    "Key Points": [key_points], #Store key points as a list
+                   ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
