@@ -31,7 +31,7 @@ def main_app():
             else:
                 with st.spinner('Analyzing...'):
                     # time.sleep(2)
-                    if url:
+                    if url and options :
                         Website_Scraper= web_url_scraper(web_url=url,api_key=api_key)
                         if "Summary" in options:
                             summary = Website_Scraper.get_summary(question,selected_model)
@@ -69,8 +69,8 @@ def main_app():
                         #     st.subheader("Answer to your question:")
                         #     # ... (your question-answering logic here) ...
                         #     st.write("Answer will be displayed here.")
-
-
+                    else:
+                        st.warning("Please enter a URL and select at least one option summary/keys points.")
 
 
 
