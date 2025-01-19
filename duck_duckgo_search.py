@@ -16,9 +16,10 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
-def web_search_agent_duckduckgo(model="llama3-70b-8192",description="",question=""):
+def web_search_agent_duckduckgo(api_key_input,model="llama3-70b-8192",description="",question=""):
     web_agent = Agent(
-        model=Groq(id=model,api_key=os.getenv("Groq_api_key")),
+        # model=Groq(id=model,api_key=os.getenv("Groq_api_key")),
+        model=Groq(id=model,api_key=api_key_input),
         # description="""You are a helpful Scam News Analyst expert assistant.
         #                 Be remember you have to give the answer in brief summary within provided context
         #                 You reply with proper summary within given context.""",

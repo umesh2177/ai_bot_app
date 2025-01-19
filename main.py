@@ -28,7 +28,7 @@ def main_app():
                             description="""You are a helpful Scam News Analyst expert assistant.
                              Be remember you have to give the answer in brief summary within provided context
                              You reply with proper summary within given context."""
-                            summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+                            summary = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model)
                             # print(f"Agent Response: {summary}")
                             st.subheader("Summary:")
                             st.markdown(summary)
@@ -37,7 +37,7 @@ def main_app():
                             description="""You are a helpful Scam News Analyst expert assistant .
                             Be remember you have to give the answer in points within provided context
                         You reply most keys ponits and factors within given context."""
-                            key_points = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+                            key_points = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model)
                             # print(f"Agent Response: {key_points}")
                             st.subheader("Key Points:")
                             st.markdown(key_points)
@@ -45,7 +45,7 @@ def main_app():
                             description="""You are a helpful Scam News Analyst expert assistant .
                              You reply with the names of all members involved in the scam and provide a brief history of their involvement within the given context.
                             """
-                            key_Members = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+                            key_Members = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model)
                             # print(f"Agent Response: {key_Members}")
                             st.subheader("Key Members:")
                             st.markdown(key_Members)
@@ -94,5 +94,5 @@ if __name__ == "__main__":
     try:
         main_app()
     except Exception as e:
-        logger.exception("An exception occurred:")
+        logger.exception(f"An exception occurred:{e.with_traceback}")
         print(e.with_traceback())
