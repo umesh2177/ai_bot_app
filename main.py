@@ -1,76 +1,59 @@
-import streamlit as st
-import time
-from web_scraper.website_scraper import web_url_scraper
-import pandas as pd
 import logging
-
+import streamlit as st
+import duck_duckgo_search
 def main_app():
-        st.title("News Expert Agent APP")
-        # with st.form("my_form"):
+    st.title("News Expert Agent APP")
+    api_key = st.text_input("Enter your groq API Key:", "")
 
-        api_key = st.text_input("Enter your groq API Key:", "")
+    model_options = ["llama3-70b-8192","llama-3.3-70b-versatile"]#"llama-3.1-8b-instant","mixtral-8x7b-32768"] 
+    selected_model = st.selectbox("Select Model", model_options)
 
-        model_options = ["llama3-70b-8192","llama-3.3-70b-versatile", "llama-3.1-8b-instant" ]#"mixtral-8x7b-32768"] 
-        selected_model = st.selectbox("Select Model", model_options)
+    # Display the selected model
+    st.write("Selected Model:", selected_model) 
+    question = st.text_input("Enter your question (optional):", "")
 
-        # Display the selected model
-        st.write("Selected Model:", selected_model) 
-
-        url = st.text_input("Enter URL:", "")
-        question = st.text_input("Enter your question (optional):", "")
-
-        options = st.multiselect(
+    options = st.multiselect(
             "Select options:",
-            ["Summary", "Key Points"]
+            ["Summary", "Key Points","Members"]
         )
 
 
-        if st.button("Submit"):
+    if st.button("Submit"):
             if not api_key:
                 st.warning("Please enter your Groq API Key.")
             else:
                 with st.spinner('Analyzing...'):
-                    # time.sleep(2)
-                    if url and options :
-                        Website_Scraper= web_url_scraper(web_url=url,api_key=api_key)
+                    if question and options:
                         if "Summary" in options:
-                            summary = Website_Scraper.get_summary(question,selected_model)
+                            description="""You are a helpful Scam News Analyst expert assistant.
+                             Be remember you have to give the answer in brief summary within provided context
+                             You reply with proper summary within given context."""
+                            summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+                            # print(f"Agent Response: {summary}")
                             st.subheader("Summary:")
-                            st.write(summary)
+                            st.markdown(summary)
 
                         if "Key Points" in options:
-                            key_points = Website_Scraper.get_key_points(question,selected_model)
+                            description="""You are a helpful Scam News Analyst expert assistant .
+                            Be remember you have to give the answer in points within provided context
+                        You reply most keys ponits and factors within given context."""
+                            key_points = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+                            # print(f"Agent Response: {key_points}")
                             st.subheader("Key Points:")
-                            st.write(key_points)
+                            st.markdown(key_points)
+                        if "Members" in options:
+                            description="""You are a helpful Scam News Analyst expert assistant .
+                             You reply with the names of all members involved in the scam and provide a brief history of their involvement within the given context.
+                            """
+                            key_Members = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+                            # print(f"Agent Response: {key_Members}")
+                            st.subheader("Key Members:")
+                            st.markdown(key_Members)
 
-
-                        new_data = pd.DataFrame({
-                            "URL": [url],
-                            "Question": [question],
-                            "Bot Summary": [summary],
-                            "Key Points": [key_points], #Store key points as a list
-                        })
-
-                        # Load existing data (if any)
-                        try:
-                            df = pd.read_csv("user_inputs.csv")
-                        except FileNotFoundError:
-                            df = pd.DataFrame(columns=["URL", "Question", "Bot Summary", "Key Points"])
-
-                        # Append new data to the DataFrame
-                        df = pd.concat([df, new_data], ignore_index=True)
-
-                        # Save the updated DataFrame to CSV
-                        df.to_csv("user_inputs.csv", index=False)
-
-
-                        # if question:
-                        #     # Add logic to answer the question based on the extracted text
-                        #     st.subheader("Answer to your question:")
-                        #     # ... (your question-answering logic here) ...
-                        #     st.write("Answer will be displayed here.")
                     else:
-                        st.warning("Please enter a URL and select at least one option summary/keys points.")
+                        st.warning("Please enter a Question and select at least one option summary/keys points.")
+
+
 
 
 
@@ -101,7 +84,6 @@ def setup_logger(log_file='logger.log'):
 
     return logger
 
-# Example usage:
 if __name__ == "__main__":
     logger = setup_logger()
 
@@ -112,4 +94,5 @@ if __name__ == "__main__":
     try:
         main_app()
     except Exception as e:
-        logger.exception("An exception occurred:") 
+        logger.exception("An exception occurred:")
+        print(e.with_traceback())

@@ -1,262 +1,355 @@
-2025-01-11 13:28:26,309 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:26,309 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:26,309 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:31,381 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:31,381 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:31,382 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:31,382 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:31,383 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:31,383 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:35,440 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:35,440 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:35,440 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:35,440 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:35,440 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:35,440 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:35,440 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:35,440 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:35,440 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:37,232 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:37,233 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:37,233 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,561 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,561 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,561 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,761 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,761 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:44,761 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,552 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,554 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:48,558 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:51,900 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+2025-01-19 10:55:50,647 - __main__ - INFO - This is an informational message.
+2025-01-19 10:55:50,647 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:55:50,647 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:00,900 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:00,900 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:00,901 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:00,901 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:00,903 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:00,903 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:18,365 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:18,365 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:18,365 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:18,365 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:18,365 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:18,365 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:18,365 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:18,365 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:18,365 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:19,877 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:19,877 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:19,877 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:19,877 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:19,881 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:19,881 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:19,881 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:19,881 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:19,886 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:19,886 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:19,886 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:19,886 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:21,090 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:21,090 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:21,090 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:21,090 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:21,090 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:21,093 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:21,093 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:21,093 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:21,093 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:21,093 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:21,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:21,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:21,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:21,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:21,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:23,094 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:23,094 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:23,094 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:23,094 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:23,094 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:23,094 - __main__ - INFO - This is an informational message.
+2025-01-19 10:56:23,094 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:23,094 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:23,094 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:23,094 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:23,094 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:23,094 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:56:23,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:23,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:23,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:23,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:23,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:56:23,094 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:27,509 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,210 - __main__ - INFO - This is an informational message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,224 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:58:30,227 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,372 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,393 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:37,395 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,614 - __main__ - INFO - This is an informational message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,624 - __main__ - WARNING - This is a warning message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,628 - __main__ - ERROR - This is an error message.
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:53,913 - __main__ - ERROR - An exception occurred:
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
 Traceback (most recent call last):
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 113, in <module>
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
     main_app()
-  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 51, in main_app
-    "Key Points": [key_points], #Store key points as a list
-                   ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'key_points' where it is not associated with a value
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,948 - __main__ - INFO - This is an informational message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,950 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:28:56,951 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,347 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,358 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:00,359 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - INFO - This is an informational message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - WARNING - This is a warning message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
-2025-01-11 13:29:39,623 - __main__ - ERROR - This is an error message.
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
+2025-01-19 10:59:42,660 - __main__ - ERROR - An exception occurred:
+Traceback (most recent call last):
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 84, in <module>
+    main_app()
+  File "D:\Neeraj\streamlit\ai_bot_app\main.py", line 31, in main_app
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(description=description,question=question,model=selected_model)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\duck_duckgo_search.py", line 32, in web_search_agent_duckduckgo
+    response = web_agent.print_response(question, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\phi\agent\agent.py", line 2882, in print_response
+    with Live(console=console) as live_log:
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 166, in __enter__
+    self.start(refresh=self._renderable is not None)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\live.py", line 113, in start
+    self.console.set_live(self)
+  File "D:\Neeraj\streamlit\ai_bot_app\venv\Lib\site-packages\rich\console.py", line 835, in set_live
+    raise errors.LiveError("Only one live display may be active at once")
+rich.errors.LiveError: Only one live display may be active at once
