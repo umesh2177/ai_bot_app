@@ -20,7 +20,7 @@ def main_app():
     key_dict = json.loads(st.secrets["json_key_file"])
     creds = service_account.Credentials.from_service_account_info(key_dict)
     db = firestoredb.initialize_firestore(creds)
-    st.text(firestoredb.read_data(db=db,collection_name="User_Query_Collection",document_id="user_query_20250126_142937"))
+    # st.text(firestoredb.read_data(db=db,collection_name="User_Query_Collection",document_id="user_query_20250126_142937"))
 
     model_options = ["llama3-70b-8192","llama-3.3-70b-versatile"]#"llama-3.1-8b-instant","mixtral-8x7b-32768"] 
     selected_model = st.selectbox("Select Model", model_options)
