@@ -22,7 +22,7 @@ def main_app():
     db = firestoredb.initialize_firestore(creds)
     # st.text(firestoredb.read_data(db=db,collection_name="User_Query_Collection",document_id="user_query_20250126_142937"))
 
-    model_options = ["llama3-70b-8192","llama-3.3-70b-versatile"]#"llama-3.1-8b-instant","mixtral-8x7b-32768"] 
+    model_options = ["llama3-70b-8192","llama-3.3-70b-specdec","llama-3.3-70b-versatile"]#"llama-3.1-8b-instant","mixtral-8x7b-32768"] 
     selected_model = st.selectbox("Select Model", model_options)
 
     # Display the selected model
@@ -31,7 +31,7 @@ def main_app():
 
     options = st.multiselect(
             "Select options:",
-            ["Summary", "Key Points","Members"]
+            ["Summary", "Key Points","Members","Recent Updates"]
         )
     
     states = st.selectbox(
@@ -59,7 +59,7 @@ def main_app():
                         if "Key Points" in options:
                             description="""You are a helpful Scam News Analyst expert assistant .
                             Be remember you have to give the answer in points within provided context
-                        You reply most keys ponits and factors within given context.  The news scams should be belongs {states}"""
+                            You reply most keys ponits and factors within given context.  The news scams should be belongs {states}"""
                             key_points = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
                             # print(f"Agent Response: {key_points}")
                             st.subheader("Key Points:")
@@ -72,6 +72,15 @@ def main_app():
                             # print(f"Agent Response: {key_Members}")
                             st.subheader("Key Members:")
                             st.markdown(key_Members)
+                        
+                        if "Recent Updates" in options:
+                            description="""You are a helpful Scam News Analyst expert assistant .
+                             You reply with a brief latest updates within the given context with yearly basis. The news scams should be belongs {states}.
+                            """
+                            key_recent_updates = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+                            # print(f"Agent Response: {key_Members}")
+                            st.subheader("Recent Updates:")
+                            st.markdown(key_recent_updates)
 
 
                         
@@ -89,6 +98,7 @@ def main_app():
                                 "summary": summary if "Summary" in options else None,
                                 "key_points": key_points if "Key Points" in options else None,
                                 "members": key_Members if "Members" in options else None,
+                                "recent_updates": key_recent_updates if  "Recent Updates" in options else None,
                                 "states" : states
                             }
                         }
