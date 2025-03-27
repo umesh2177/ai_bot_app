@@ -5,13 +5,13 @@ from firestore_db import firestoredb
 
 from google.oauth2 import service_account
 import datetime
-
+current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
 
 def write_to_firestore(db, question, selected_model, options, summary, key_points, key_Members, key_recent_updates, states):
     # User_Query_Collection
     # Generate document_id using current datetime
-    current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+
     document_id = f"user_query_{current_datetime}"
 
     # Create data json to store in db
@@ -124,17 +124,66 @@ def option_selector(api_key,db):
 
 
 
+def contact_us(db):
+    if 'toggle_status' not in st.session_state:
+        st.session_state['toggle_status'] = False
+
+    # Create the checkbox, using its value as the toggle status
+    st.session_state['toggle_status'] = st.checkbox("Contact Us", value=st.session_state['toggle_status'])
+
+    if st.session_state['toggle_status']:# st.button("Contact Us"):
+        st.write("Please fill out the form below to get in touch.")
+
+        with st.form("contact_form"):
+            name = st.text_input("Your Name", placeholder="Enter your name")
+            email = st.text_input("Your Email", placeholder="Enter your email address")
+            phone_number = st.text_input("Your Phone", placeholder="Enter your phone number")
+            subject = st.text_input("Subject", placeholder="Enter the subject of your message")
+            message = st.text_area("Message", placeholder="Enter your message here")
+            submitted = st.form_submit_button("Submit")
+
+            if submitted:
+                if not name or not email or not subject or not message:
+                    st.error("Please fill out all the fields.")
+                elif "@" not in email or "." not in email:
+                    st.error("Please enter a valid email address.")
+                else:
+                    try:
+                        doc_ref={
+                            "name": name,
+                            "email": email,
+                            "phone": phone_number,
+                            "subject": subject,
+                            "message": message,
+                        }
+                        document_id = f"user_contact_{current_datetime}"
+                        firestoredb.write_data(db=db, collection_name="User_Contact_Collection", document_id=document_id, data=doc_ref)
+                        # Clear the form after successful submission (optional)
+                        name = ""
+                        email = ""
+                        subject = ""
+                        message = ""
+                        phone_number=""
+                        st.success("Thank you for your message! We will get back to you soon.")
+                        st.session_state['toggle_status'] = False
+
+                    except Exception as e:
+                        st.error(f"Error submitting form: {e}")
+
 
 def main_app():
     # print(f"keys:{st.secrets.keys()}")
-    st.title("Scam News Expert Agent")
+    st.title("Scam News Expert Agent") 
     # api_key = st.text_input("Enter your groq API Key:", "")
     api_key=st.secrets["groq"]["api_key1"]
     key_dict = json.loads(st.secrets["json_key_file"])
     creds = service_account.Credentials.from_service_account_info(key_dict)
     db = firestoredb.initialize_firestore(creds)
     # st.text(firestoredb.read_data(db=db,collection_name="User_Query_Collection",document_id="user_query_20250126_142937"))
+    contact_us(db)
     option_selector(api_key,db)
+
+    
 
 def setup_logger(log_file='logger.log'):
     """
@@ -162,7 +211,6 @@ def setup_logger(log_file='logger.log'):
     logger.addHandler(file_handler)
 
     return logger
-
 
 
 def main():
