@@ -1,0 +1,213 @@
+2025-03-27 11:33:15,940 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of StreamlitSecretNotFoundError object at 0x000001FEB8F85750>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 149, in <module>
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 18, in main_app
+    api_key=st.secrets["groq"]["api_key1"]
+            ~~~~~~~~~~^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 470, in __getitem__
+    value = self._parse()[key]
+            ^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 372, in _parse
+    raise StreamlitSecretNotFoundError(error_msg)
+streamlit.errors.StreamlitSecretNotFoundError: No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\Dell\.streamlit\secrets.toml, D:\GEN AI APPs\ai_bot_app\.streamlit\secrets.toml
+2025-03-27 11:34:15,418 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of PermissionError object at 0x000001FEB9187F40>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 149, in <module>
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 18, in main_app
+    api_key=st.secrets["groq"]["api_key1"]
+            ~~~~~~~~~~^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 470, in __getitem__
+    value = self._parse()[key]
+            ^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 362, in _parse
+    path_secrets, found_secrets_file_in_path = self._parse_file_path(path)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 321, in _parse_file_path
+    return self._parse_toml_file(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 252, in _parse_toml_file
+    with open(path, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\GEN AI APPs\\ai_bot_app\\.streamlit\\secrets.toml'
+2025-03-27 11:34:15,418 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of PermissionError object at 0x000001FEB9187F40>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 149, in <module>
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 18, in main_app
+    api_key=st.secrets["groq"]["api_key1"]
+            ~~~~~~~~~~^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 470, in __getitem__
+    value = self._parse()[key]
+            ^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 362, in _parse
+    path_secrets, found_secrets_file_in_path = self._parse_file_path(path)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 321, in _parse_file_path
+    return self._parse_toml_file(path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\GEN AI APPs\ai_bot_app\venv\Lib\site-packages\streamlit\runtime\secrets.py", line 252, in _parse_toml_file
+    with open(path, encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\GEN AI APPs\\ai_bot_app\\.streamlit\\secrets.toml'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'
+2025-03-27 11:57:51,348 - __main__ - ERROR - An exception occurred:<built-in method with_traceback of TypeError object at 0x000001E455721A80>
+Traceback (most recent call last):
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 172, in main
+    main_app()
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 138, in main_app
+    option_selector(api_key,db)
+  File "D:\GEN AI APPs\ai_bot_app\main.py", line 97, in option_selector
+    summary = summarize_of_scam(question)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: summarize_of_scam() missing 3 required positional arguments: 'question', 'api_key', and 'selected_model'

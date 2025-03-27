@@ -8,20 +8,67 @@ import datetime
 
 
 
+def write_to_firestore(db, question, selected_model, options, summary, key_points, key_Members, key_recent_updates, states):
+    # User_Query_Collection
+    # Generate document_id using current datetime
+    current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    document_id = f"user_query_{current_datetime}"
 
-def main_app():
-    # print(f"keys:{st.secrets.keys()}")
+    # Create data json to store in db
+    data = {
+        "question":question,
+        "selected_model": selected_model,
+        "selected_options": options,
+        "model_output": {
+            "summary": summary if "Summary" in options else None,
+            "key_points": key_points if "Key Points" in options else None,
+            "members": key_Members if "Members" in options else None,
+            "recent_updates": key_recent_updates if  "Recent Updates" in options else None,
+            "states" : states
+        }
+    }
 
-    st.title("News Expert Agent APP")
-    # api_key = st.text_input("Enter your groq API Key:", "")
+    # Write data to Firestore
+    return firestoredb.write_data(db=db, collection_name="User_Query_Collection", document_id=document_id, data=data)
+
+
+def summarize_of_scam(states,question,api_key,selected_model):
+    print(states)
+    description=f"""You are a helpful Scam News Analyst expert assistant.
+        Be remember you have to give the answer in brief summary within provided context
+        You reply with proper summary within given context. The news scams should be belongs {states}"""
+    summary = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+    # print(f"Agent Response: {summary}")
+    return summary
+
+def key_points_of_scam(states,question,api_key,selected_model):
+    description="""You are a helpful Scam News Analyst expert assistant .
+                Be remember you have to give the answer in points within provided context
+                You reply most keys ponits and factors within given context.  The news scams should be belongs {states}"""
+    key_points = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+                            # print(f"Agent Response: {key_points}")
+    return key_points
+
+def members_of_scam(states,question,api_key,selected_model):
+    description="""You are a helpful Scam News Analyst expert assistant .
+                    You reply with the names of all members involved in the scam and provide a brief history of their involvement within the given context. The news scams should be belongs {states}
+                """
+    key_Members = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+                            # print(f"Agent Response: {key_Members}")
+    return key_Members
     
-    api_key=st.secrets["groq"]["api_key1"]
+def recent_updates_of_scam(states,question,api_key,selected_model):
+    description="""You are a helpful Scam News Analyst expert assistant .
+                   You reply with a brief latest updates within the given context with yearly basis. The news scams should be belongs {states}.
+                """
+    key_recent_updates = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+                            # print(f"Agent Response: {key_Members}")
+    return key_recent_updates
 
-    key_dict = json.loads(st.secrets["json_key_file"])
-    creds = service_account.Credentials.from_service_account_info(key_dict)
-    db = firestoredb.initialize_firestore(creds)
-    # st.text(firestoredb.read_data(db=db,collection_name="User_Query_Collection",document_id="user_query_20250126_142937"))
 
+
+
+def option_selector(api_key,db):
     model_options = ["llama3-70b-8192","llama-3.3-70b-specdec","llama-3.3-70b-versatile"]#"llama-3.1-8b-instant","mixtral-8x7b-32768"] 
     selected_model = st.selectbox("Select Model", model_options)
 
@@ -47,64 +94,28 @@ def main_app():
                 with st.spinner('Analyzing...'):
                     if question and options and states:
                         if "Summary" in options:
-                            print(states)
-                            description=f"""You are a helpful Scam News Analyst expert assistant.
-                             Be remember you have to give the answer in brief summary within provided context
-                             You reply with proper summary within given context. The news scams should be belongs {states}"""
-                            summary = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
-                            # print(f"Agent Response: {summary}")
+                            summary = summarize_of_scam(states,question,api_key,selected_model)
                             st.subheader("Summary:")
                             st.markdown(summary)
+                           
 
                         if "Key Points" in options:
-                            description="""You are a helpful Scam News Analyst expert assistant .
-                            Be remember you have to give the answer in points within provided context
-                            You reply most keys ponits and factors within given context.  The news scams should be belongs {states}"""
-                            key_points = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
-                            # print(f"Agent Response: {key_points}")
+                            key_points = key_points_of_scam(states,question,api_key,selected_model)
                             st.subheader("Key Points:")
                             st.markdown(key_points)
                         if "Members" in options:
-                            description="""You are a helpful Scam News Analyst expert assistant .
-                             You reply with the names of all members involved in the scam and provide a brief history of their involvement within the given context. The news scams should be belongs {states}
-                            """
-                            key_Members = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
-                            # print(f"Agent Response: {key_Members}")
+                            key_Members = members_of_scam(states,question,api_key,selected_model)
                             st.subheader("Key Members:")
-                            st.markdown(key_Members)
+                            st.markdown(members_of_scam(states,question,api_key,selected_model))
                         
                         if "Recent Updates" in options:
-                            description="""You are a helpful Scam News Analyst expert assistant .
-                             You reply with a brief latest updates within the given context with yearly basis. The news scams should be belongs {states}.
-                            """
-                            key_recent_updates = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
-                            # print(f"Agent Response: {key_Members}")
+                            key_recent_updates = recent_updates_of_scam(states,question,api_key,selected_model)
                             st.subheader("Recent Updates:")
                             st.markdown(key_recent_updates)
 
-
-                        
-                        # User_Query_Collection
-                        # Generate document_id using current datetime
-                        current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-                        document_id = f"user_query_{current_datetime}"
-
-                        # Create data json to store in db
-                        data = {
-                            "question":question,
-                            "selected_model": selected_model,
-                            "selected_options": options,
-                            "model_output": {
-                                "summary": summary if "Summary" in options else None,
-                                "key_points": key_points if "Key Points" in options else None,
-                                "members": key_Members if "Members" in options else None,
-                                "recent_updates": key_recent_updates if  "Recent Updates" in options else None,
-                                "states" : states
-                            }
-                        }
-
                         # Write data to Firestore
-                        firestoredb.write_data(db=db, collection_name="User_Query_Collection", document_id=document_id, data=data)
+                        write_to_firestore(db=db, question=question, selected_model=selected_model, options=options, summary=summary, key_points=key_points, key_Members=key_Members, key_recent_updates=key_recent_updates, states=states)
+                      
 
 
                     else:
@@ -113,6 +124,16 @@ def main_app():
 
 
 
+def main_app():
+    # print(f"keys:{st.secrets.keys()}")
+    st.title("Scam News Expert Agent")
+    # api_key = st.text_input("Enter your groq API Key:", "")
+    api_key=st.secrets["groq"]["api_key1"]
+    key_dict = json.loads(st.secrets["json_key_file"])
+    creds = service_account.Credentials.from_service_account_info(key_dict)
+    db = firestoredb.initialize_firestore(creds)
+    # st.text(firestoredb.read_data(db=db,collection_name="User_Query_Collection",document_id="user_query_20250126_142937"))
+    option_selector(api_key,db)
 
 def setup_logger(log_file='logger.log'):
     """
@@ -141,12 +162,16 @@ def setup_logger(log_file='logger.log'):
 
     return logger
 
-if __name__ == "__main__":
+
+
+def main():
     logger = setup_logger()
-
-
     try:
         main_app()
     except Exception as e:
         logger.exception(f"An exception occurred:{e.with_traceback}")
         print(e.with_traceback())
+
+if __name__ == "__main__":
+    main()
+   

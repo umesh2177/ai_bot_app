@@ -7,8 +7,14 @@ def initialize_firestore(cred):
 
 # Write data to Firestore
 def write_data(db, collection_name, document_id, data):
-    db.collection(collection_name).document(document_id).set(data)
-    print(f'Document {document_id} successfully written.')
+    try:
+        db.collection(collection_name).document(document_id).set(data)
+        print(f'Document {document_id} successfully written.')
+    except Exception as e:
+        print(f'An error occurred: {e}')
+        return False
+    return True
+    
 
 # Read data from Firestore
 def read_data(db, collection_name, document_id):

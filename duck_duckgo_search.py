@@ -27,9 +27,15 @@ def web_search_agent_duckduckgo(api_key_input,model="llama3-70b-8192",descriptio
         add_chat_history_to_messages=True,
         tools=[DuckDuckGo(fixed_max_results=10)],
         instructions=[
-            f"""You are a Scam News Analyst Expert of india region. 
-            You have to provide the main context of scam news which happened in {state}.""",
-            "Always include url of sources in bulltes points."
+            f"""You are a Scam News Analyst Expert in the india region. 
+            You have to provide the main/primary context of scam news which happened in {state}.""",
+            "Always include the accessible source url of sources in bullet points.",
+            "Please try to explain in a brief and clear manner.",
+            "You can use the tools to search for the information.",
+
+            # """As an expert Scam News Analyst specializing in the India region, "
+            # "please provide the primary context of scam-related news originating from a specified {state}. "
+            # "Ensure that all provided information includes accessible source URLs in a bulleted list."""
         ],
         show_tool_calls=True,
         markdown=True,
