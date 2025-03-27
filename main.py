@@ -16,6 +16,7 @@ def write_to_firestore(db, question, selected_model, options, summary, key_point
 
     # Create data json to store in db
     data = {
+        "timestamp": current_datetime,
         "question":question,
         "selected_model": selected_model,
         "selected_options": options,
