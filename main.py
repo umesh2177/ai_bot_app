@@ -86,7 +86,10 @@ def option_selector(api_key,db):
             "Select State:",
             ["India","Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal", "Andaman and Nicobar Islands", "Chandigarh", "Dadra and Nagar Haveli and Daman and Diu", "Delhi", "Jammu and Kashmir", "Ladakh", "Lakshadweep", "Puducherry"]
         )
-
+    summary=""
+    key_points=""
+    key_Members=""
+    key_recent_updates=""
 
     if st.button("Submit"):
             if not api_key:
@@ -99,7 +102,6 @@ def option_selector(api_key,db):
                             st.subheader("Summary:")
                             st.markdown(summary)
                            
-
                         if "Key Points" in options:
                             key_points = key_points_of_scam(states,question,api_key,selected_model)
                             st.subheader("Key Points:")
@@ -140,7 +142,7 @@ def contact_us(db):
             phone_number = st.text_input("Your Phone", placeholder="Enter your phone number")
             subject = st.text_input("Subject", placeholder="Enter the subject of your message")
             message = st.text_area("Message", placeholder="Enter your message here")
-            submitted = st.form_submit_button("Submit")
+            submitted = st.form_submit_button("Submit ")
 
             if submitted:
                 if not name or not email or not subject or not message:
