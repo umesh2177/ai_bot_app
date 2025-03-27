@@ -38,33 +38,33 @@ def summarize_of_scam(states,question,api_key,selected_model):
     description=f"""You are a helpful Scam News Analyst expert assistant.
         Be remember you have to give the answer in brief summary within provided context
         You reply with proper summary within given context. The news scams should be belongs {states}"""
-    summary = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+    return duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
     # print(f"Agent Response: {summary}")
-    return summary
+    # return summary
 
 def key_points_of_scam(states,question,api_key,selected_model):
     description="""You are a helpful Scam News Analyst expert assistant .
                 Be remember you have to give the answer in points within provided context
                 You reply most keys ponits and factors within given context.  The news scams should be belongs {states}"""
-    key_points = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
-                            # print(f"Agent Response: {key_points}")
-    return key_points
+    return duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+    # print(f"Agent Response: {key_points}")
+    # return key_points
 
 def members_of_scam(states,question,api_key,selected_model):
     description="""You are a helpful Scam News Analyst expert assistant .
                     You reply with the names of all members involved in the scam and provide a brief history of their involvement within the given context. The news scams should be belongs {states}
                 """
-    key_Members = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+    return duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
                             # print(f"Agent Response: {key_Members}")
-    return key_Members
+    # return key_Members
     
 def recent_updates_of_scam(states,question,api_key,selected_model):
     description="""You are a helpful Scam News Analyst expert assistant .
                    You reply with a brief latest updates within the given context with yearly basis. The news scams should be belongs {states}.
                 """
-    key_recent_updates = duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
+    return duck_duckgo_search.web_search_agent_duckduckgo(api_key_input=api_key,description=description,question=question,model=selected_model,state=states)
                             # print(f"Agent Response: {key_Members}")
-    return key_recent_updates
+    # return key_recent_updates
 
 
 
